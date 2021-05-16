@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-image: url("media/section1pic.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: Lato;
+    font-size: 57px;
+}
+.navbar-logo h1 {
+    float: left;
+    list-style-type: none;
+    padding: 30px;
+    font-family: Georgia;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 59px;
+}
+.navbar ul {
+    float: right;
+    list-style-type: none;
+    padding: 30px;
+}
+.navbar ul li {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.navbar a:hover {
+    color: #a85952;
+}
+.everything {
+    margin: 2% auto;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #A85952;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    padding-bottom: 10px;
+    width: 93%;
+}
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 90vw;
+    margin: auto;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    word-break: break-all;
+    color: #000;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 10px;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main h1 {
+    font-family: "Georgia";
+    line-height: 60px;
+}
+.content {
+    padding: 10px;
+    line-height: 30px;
+}
+.content h4 {
+    color: #a85952;
+    font-family: Lato;
+}
+.content h2 {
+    color: #000000;
+    font-family: Lato;
+}
+.main h4 {
+    color: #a85952;
+    font-family: Lato;
+}
+.main h3 {
+    color: #a85952;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Lato;
+}
+.section3 {
+    height:60px;
+    display: flex;
+    padding-top: 60px;
+}
+.section3-img {
+    vertical-align: middle;
+}
+.section3-text {
+    text-align:left;
+    flex-basis: 50%;
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px;
+}
+

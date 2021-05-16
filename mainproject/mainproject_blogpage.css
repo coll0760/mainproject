@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 30vh;
+    position: relative;
+    font-family: Lato;
+    font-size: 57px;
+}
+.navbar-logo h1 {
+    float: left;
+    list-style-type: none;
+    padding: 30px;
+    font-family: Georgia;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 59px;
+}
+.navbar ul {
+    float: right;
+    list-style-type: none;
+    padding: 30px;
+}
+.navbar ul li {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 10px;
+}
+.navbar a:hover {
+    color: #a85952;
+}
+body {
+    font-family: sans-serif;
+    color: #000000;
+}
+.hr {
+    border: none;
+    border-top: 3px solid #a85952;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 93%;
+    padding-top: 10px;
+}
+
+.main {
+    margin: auto;
+}
+.section5 {
+    height: 370px;
+    padding-bottom: 20px;
+}
+.section5-img {
+    vertical-align: middle;
+    float: left;
+}
+.section5-text {
+    text-align:left;
+    flex-basis: 50%;
+    padding-left: 30px;
+    line-height: 35px;
+    font-family: 'Lato';
+    font-size: 20px;
+    float: left;
+}
+#videobg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.row {
+    margin: 8px -16px;
+    padding-left: 75px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main h1 {
+    font-family: "Georgia";
+    line-height: 90px;
+}
+.content {
+    padding: 10px;
+    line-height: 30px;
+}
+.content h4 {
+    color: #a85952;
+    font-family: Lato;
+}
+.content h2 {
+    color: #000000;
+    font-family: Lato;
+}
+.main h4 {
+    color: #a85952;
+    font-family: Lato;
+}
+.main h3 {
+    color: #a85952;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Lato;
+}
+.h1 {
+    font-family: Georgia;
+    color: #a85952;
+}
+.footer {
+    background-color: #1F3D46;
+    color: #ffffff;
+    text-align: center;
+    width: 100vw;
+}
+.inner-footer {
+    margin: 0;
+    padding: 0;
+}
+.social-links {
+    display: flex;
+}
+.social-links ul {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+}
+.social-links a {
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Lato;
+}
+.quick-links {
+    display: flex;
+}
+.quick-links ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+}
+.quick-links a {
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    padding: 10px 20px;
+}
+.outer-footer {
+    padding: 10px;
+    text-align: center;
+}
+.social-links a:hover {
+    color: #a85952;
+}
+.quick-links a:hover {
+    color: #a85952;
+}
+.music-container {
+    float: right;
+    margin-right: 6%;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: Lato;
+    text-align: center;
+}
+#icon {
+    cursor: pointer;
+}
